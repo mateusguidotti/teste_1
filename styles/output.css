@@ -704,6 +704,9 @@
   .mt-16 {
     margin-top: calc(var(--spacing) * 16);
   }
+  .mb-5 {
+    margin-bottom: calc(var(--spacing) * 5);
+  }
   .box-border {
     box-sizing: border-box;
   }
@@ -797,11 +800,26 @@
   .h-\[89dvh\] {
     height: 89dvh;
   }
+  .h-\[100dvh\] {
+    height: 100dvh;
+  }
   .h-full {
     height: 100%;
   }
   .h-screen {
     height: 100vh;
+  }
+  .max-h-\[10dvh\] {
+    max-height: 10dvh;
+  }
+  .max-h-\[89dvh\] {
+    max-height: 89dvh;
+  }
+  .max-h-\[100dvh\] {
+    max-height: 100dvh;
+  }
+  .max-h-\[dvh\] {
+    max-height: dvh;
   }
   .max-h-none {
     max-height: none;
