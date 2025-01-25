@@ -524,8 +524,23 @@
   .collapse {
     visibility: collapse;
   }
+  .absolute {
+    position: absolute;
+  }
   .relative {
     position: relative;
+  }
+  .top-0 {
+    top: calc(var(--spacing) * 0);
+  }
+  .z-0 {
+    z-index: 0;
+  }
+  .z-1 {
+    z-index: 1;
+  }
+  .z-2 {
+    z-index: 2;
   }
   .mt-8 {
     margin-top: calc(var(--spacing) * 8);
@@ -627,6 +642,9 @@
   .bg-\[\#5765EC\] {
     background-color: #5765EC;
   }
+  .bg-black {
+    background-color: var(--color-black);
+  }
   .bg-white {
     background-color: var(--color-white);
   }
@@ -634,9 +652,123 @@
     --tw-gradient-position: to top in oklab,;
     background-image: linear-gradient(var(--tw-gradient-stops));
   }
+  .bg-\[url\(\'\/\'\)\] {
+    background-image: url('/');
+  }
+  .bg-\[url\(\'\/a\'\)\] {
+    background-image: url('/a');
+  }
+  .bg-\[url\(\'\/as\'\)\] {
+    background-image: url('/as');
+  }
+  .bg-\[url\(\'\/ass\'\)\] {
+    background-image: url('/ass');
+  }
+  .bg-\[url\(\'\/asse\'\)\] {
+    background-image: url('/asse');
+  }
+  .bg-\[url\(\'\/assete\'\)\] {
+    background-image: url('/assete');
+  }
+  .bg-\[url\(\'\/assetes\'\)\] {
+    background-image: url('/assetes');
+  }
+  .bg-\[url\(\'\/assets\'\)\] {
+    background-image: url('/assets');
+  }
+  .bg-\[url\(\'\/assets\/\'\)\] {
+    background-image: url('/assets/');
+  }
+  .bg-\[url\(\'\/assets\/i\'\)\] {
+    background-image: url('/assets/i');
+  }
+  .bg-\[url\(\'\/assets\/im\'\)\] {
+    background-image: url('/assets/im');
+  }
+  .bg-\[url\(\'\/assets\/img\'\)\] {
+    background-image: url('/assets/img');
+  }
+  .bg-\[url\(\'\/assets\/img\/\'\)\] {
+    background-image: url('/assets/img/');
+  }
+  .bg-\[url\(\'\/assets\/img\/ta\'\)\] {
+    background-image: url('/assets/img/ta');
+  }
+  .bg-\[url\(\'\/assets\/img\/tabel\'\)\] {
+    background-image: url('/assets/img/tabel');
+  }
+  .bg-\[url\(\'\/assets\/img\/tabela\'\)\] {
+    background-image: url('/assets/img/tabela');
+  }
+  .bg-\[url\(\'\/assets\/img\/tabela-\'\)\] {
+    background-image: url('/assets/img/tabela-');
+  }
+  .bg-\[url\(\'\/assets\/img\/tabelaP\'\)\] {
+    background-image: url('/assets/img/tabelaP');
+  }
+  .bg-\[url\(\'\/assets\/img\/tabela_\'\)\] {
+    background-image: url('/assets/img/tabela_');
+  }
+  .bg-\[url\(\'\/assets\/img\/tabela_per\'\)\] {
+    background-image: url('/assets/img/tabela_per');
+  }
+  .bg-\[url\(\'\/assets\/img\/tabela_peri\'\)\] {
+    background-image: url('/assets/img/tabela_peri');
+  }
+  .bg-\[url\(\'\/assets\/img\/tabela_perido\'\)\] {
+    background-image: url('/assets/img/tabela_perido');
+  }
+  .bg-\[url\(\'\/assets\/img\/tabela_periodi\'\)\] {
+    background-image: url('/assets/img/tabela_periodi');
+  }
+  .bg-\[url\(\'\/assets\/img\/tabela_periodica\'\)\] {
+    background-image: url('/assets/img/tabela_periodica');
+  }
+  .bg-\[url\(\'\/assets\/img\/tabela_periodica\.\'\)\] {
+    background-image: url('/assets/img/tabela_periodica.');
+  }
+  .bg-\[url\(\'\/assets\/img\/tabela_periodica\.p\'\)\] {
+    background-image: url('/assets/img/tabela_periodica.p');
+  }
+  .bg-\[url\(\'\/assets\/img\/tabela_periodica\.pn\'\)\] {
+    background-image: url('/assets/img/tabela_periodica.pn');
+  }
+  .bg-\[url\(\'\/assets\/img\/tabela_periodica\.png\'\)\] {
+    background-image: url('/assets/img/tabela_periodica.png');
+  }
+  .bg-\[url\(\'\/assets\/img\/tabela_perioica\.png\'\)\] {
+    background-image: url('/assets/img/tabela_perioica.png');
+  }
+  .bg-\[url\(\'\/imagens\'\)\] {
+    background-image: url('/imagens');
+  }
+  .bg-\[url\(\'\/imagens\/\'\)\] {
+    background-image: url('/imagens/');
+  }
+  .bg-\[url\(\'\/imagens\/gradient\'\)\] {
+    background-image: url('/imagens/gradient');
+  }
+  .bg-\[url\(\'\/imagens\/gradient-\'\)\] {
+    background-image: url('/imagens/gradient-');
+  }
+  .bg-\[url\(\'\/imagens\/gradient-bg\'\)\] {
+    background-image: url('/imagens/gradient-bg');
+  }
+  .bg-\[url\(\'\/imagens\/gradient-bg\.\'\)\] {
+    background-image: url('/imagens/gradient-bg.');
+  }
+  .bg-\[url\(\'\/imagens\/gradient-bg\.jpg\'\)\] {
+    background-image: url('/imagens/gradient-bg.jpg');
+  }
   .from-\[\#021108\] {
     --tw-gradient-from: #021108;
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position,) var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+  .bg-cover {
+    background-size: cover;
+  }
+  .bg-center {
+    background-position: center;
   }
   .px-5 {
     padding-inline: calc(var(--spacing) * 5);
@@ -681,6 +813,30 @@
   }
   .underline {
     text-decoration-line: underline;
+  }
+  .opacity-1 {
+    opacity: 1%;
+  }
+  .opacity-2 {
+    opacity: 2%;
+  }
+  .opacity-10 {
+    opacity: 10%;
+  }
+  .opacity-100 {
+    opacity: 100%;
+  }
+  .opacity-15 {
+    opacity: 15%;
+  }
+  .opacity-22 {
+    opacity: 22%;
+  }
+  .opacity-50 {
+    opacity: 50%;
+  }
+  .opacity-150 {
+    opacity: 150%;
   }
   .outline {
     outline-style: var(--tw-outline-style);
