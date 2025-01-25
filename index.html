@@ -8,28 +8,28 @@
 </head>
 <body>
     <nav class="w-full h-[70px] bg-white .nav-bar">
-        <ul class="w-full h-full flex justify-center items-center gap-8 text-lg font-medium">
-            <li>
+        <ul class="w-full h-full flex justify-center items-center gap-8 text-lg font-medium medium:text-2xl medium:gap-12">
+            <li class="border-b-2 hover:text-green-500 duration-150 ease-linear medium:border-b-3">
                 <a href="#">HOME</a>
             </li>
-            <li>
+            <li class="hover:text-green-500 duration-150 ease-linear">
                 <a href="#">F.A.Q</a>
             </li>
             <li>
-                <a href="#">CONTATO</a>
+                <a href="#" class="hover:text-green-500 duration-150 ease-linear">CONTATO</a>
             </li>
         </ul>
     </nav>
 
-    <section class="bg-[#4C7100] h-[89vh] bg-gradient-to-t from-[#021108] z-0 relative">
+    <section class="bg-[#4C7100] h-[90vh] bg-gradient-to-t from-[#021108] z-0 relative">
         <div class="w-full h-full bg-[url('../assets/img/tabela_periodica.png')] absolute top-0 opacity-10 bg-cover bg-center"></div>
         <div class="w-full h-full bg-black absolute top-0 opacity-22"></div>
         <main class="w-full flex flex-col items-center text-white">
-            <div class="title-container text-4xl flex flex-col items-center mt-16 z-1">
+            <div class="title-container text-4xl flex flex-col items-center mt-16 z-1 md:text-7xl">
                 <h1 class=" font-medium">WORLDWINNERS<span class="text-[20px] font-medium">br</span></h1>
-                <h2 class="text-3xl">COMMUNITY</h2>
+                <h2 class="text-3xl md:text-5xl">COMMUNITY</h2>
             </div>
-            <p class="px-8 font-medium mt-8 z-1">A WWS foi fundada em janeiro de 2023 por @WalterWhiteOFC e, desde então, se consolidou como uma base estratégica para jogadores que buscam evoluir no universo gamer, com um foco especial em FPS. Nossa missão é oferecer um ambiente seguro e confiável, onde a comunidade encontra tudo o que precisa para subir de elo e aprimorar suas skills.</p>
+            <p class="px-8 font-medium mt-8 z-1 md:text-lg medium:text-xl medium:w-[60%]">A WWS foi fundada em janeiro de 2023 por @WalterWhiteOFC e, desde então, se consolidou como uma base estratégica para jogadores que buscam evoluir no universo gamer, com um foco especial em FPS. Nossa missão é oferecer um ambiente seguro e confiável, onde a comunidade encontra tudo o que precisa para subir de elo e aprimorar suas skills.</p>
 
             <a href="#" class="mt-15 bg-[#5765EC] w-60 flex gap- px-5 py-2 rounded-xl z-1">
                 <img src="./assets/img/discord-logo.svg" alt="Discord Logo" class="w-15">
@@ -38,6 +38,25 @@
 
             <span class="text-3xl text-gray-500 mt-15 font-thin mb-5 z-1">⇓  Saiba mais  ⇓ </span>
         </main>
+    </section>
+
+    <section class="w-[80%] mt-30 grid medium:grid-cols-2 gap-10 mx-auto mb-20 text-white">
+
+        <div class="border-2 border-white w-full rounded-2xl p-7">
+            <div class="flex text-2xl md:text-4xl font-medium justify-center items-center mb-10 gap-5 h-20">
+                <img src="/assets/img/box.svg" alt="Discord Logo" class="w-14 md:w-17">
+                <span class="text-center">Entrega Automática</span>
+            </div>
+            <p  class="medium:text-xl">Nossa loja conta com um sistema de entregas automático, o que significa que você receberá o seu produto assim que o adquirir, sem precisar esperar por dias para receber o seu produto.</p>
+        </div>
+
+        <div class="border-2 border-white w-full rounded-2xl p-7">
+            <div class="flex text-2xl md:text-4xl font-medium justify-center items-center mb-10 gap-5 h-20">
+                <img src="/assets/img/controller.svg" alt="Discord Logo" class="w-14 md:w-17">
+                <span class="text-center">Avisos de Jogos Grátis</span>
+            </div>
+            <p class="medium:text-xl">Frequentemente realizamos sorteios de produtos dentro da nossa comunidade.</p>
+        </div>
     </section>
 </body>
 </html>

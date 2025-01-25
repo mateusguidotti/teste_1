@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+@theme {
+ --breakpoint-medium: 52rem;
+}
+
 body {
     background-color: black;
 }
