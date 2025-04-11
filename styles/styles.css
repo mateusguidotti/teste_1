@@ -2,6 +2,7 @@
 
 @theme {
  --breakpoint-medium: 52rem;
+ --breakpoint-high: 110rem;
 }
 
 body {

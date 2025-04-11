@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles/output.css">
 </head>
 <body>
-    <nav class="w-full h-[70px] bg-white .nav-bar">
+    <nav class="w-full h-[70px] bg-white .nav-bar fixed top-0 right-0 z-99">
         <ul class="w-full h-full flex justify-center items-center gap-8 text-lg font-medium medium:text-2xl medium:gap-12">
             <li class="border-b-2 hover:text-green-500 duration-150 ease-linear medium:border-b-3">
                 <a href="#">HOME</a>
@@ -21,23 +21,30 @@
         </ul>
     </nav>
 
-    <section class="bg-[#4C7100] h-[80vh] medium:h-[90vh] bg-gradient-to-t from-[#021108] z-0 relative">
+    <section class="bg-[#4C7100] h-[100vh] medium:h-[100vh] bg-gradient-to-t from-[#021108] z-0 relative">
         <div class="w-full h-full bg-[url('../assets/img/tabela_periodica.png')] absolute top-0 opacity-10 bg-cover bg-center"></div>
         <div class="w-full h-full bg-black absolute top-0 opacity-22"></div>
 
-        <main class="w-full flex flex-col  items-center text-white">
+        <main class="w-full h-full flex flex-col items-center justify-center text-white">
             <div class="title-container text-4xl flex flex-col items-center mt-16 z-1">
-                <h1 class=" font-medium md:text-7xl">WORLDWINNERS<span class="text-[20px] font-medium">br</span></h1>
-                <h2 class="text-3xl md:text-5xl">COMMUNITY</h2>
+                <h1 class=" font-medium md:text-7xl high:text-9xl">WORLDWINNERS<span class="text-[20px] font-medium">br</span></h1>
+                <h2 class="text-3xl md:text-5xl high:text-6xl">COMMUNITY</h2>
             </div>
 
             <div class="px-8 flex flex-col items-center medium:flex-row medium:justify-center medium:mt-10 medium:gap-20">
-                <p class="mt-15 z-1 md:text-lg medium:text-2xl medium:w-[60%] lg:text-3xl medium:font-thin">A WWS foi fundada em janeiro de 2023 por @WalterWhiteOFC e, desde então, se consolidou como uma base estratégica para jogadores que buscam evoluir no universo gamer, com um foco especial em FPS. Nossa missão é oferecer um ambiente seguro e confiável, onde a comunidade encontra tudo o que precisa para subir de elo e aprimorar suas skills.</p>
+                <p class="mt-15 z-1 md:text-lg medium:text-2xl medium:w-[60%] lg:text-3xl medium:font-thin high:text-4xl">A WWS foi fundada em janeiro de 2023 por @WalterWhiteOFC e, desde então, se consolidou como uma base estratégica para jogadores que buscam evoluir no universo gamer, com um foco especial em FPS. Nossa missão é oferecer um ambiente seguro e confiável, onde a comunidade encontra tudo o que precisa para subir de elo e aprimorar suas skills.</p>
 
-                <a href="https://discord.com/invite/aqQtUMYdmT" target="_blan" class="mt-15 bg-[#5765EC] w-60 border-2 border-transparent flex items-center gap-3 px-5 py-2 rounded-xl z-1 medium:h-30 medium:w-60 hover:border-white duration-100">
-                    <img src="./assets/img/discord-logo.svg" alt="Discord Logo" class="w-15">
-                    <span class="text-center text-white font-medium text-lg medium:text-xl">Juntar-se a comunidade</span>
-                </a>
+                <div class="w-[30%] h-full flex flex-col justify-center items-center gap-5 pt-10">
+                    <a href="https://discord.com/invite/aqQtUMYdmT" target="_blan" class=" bg-[#5765EC] w-60 outline-transparent outline-2 flex items-center gap-3 px-5 py-2 rounded-xl z-1 medium:h-30 medium:w-60 hover:outline-white duration-100">
+                        <img src="./assets/img/discord-logo.svg" alt="Discord Logo" class="w-15">
+                        <span class="text-center text-white font-medium text-lg medium:text-xl">Juntar-se a comunidade</span>
+                    </a>
+    
+                    <a href="https://discord.com/invite/aqQtUMYdmT" target="_blan" class="bg-white w-60 outline-2 outline-transparent flex items-center gap-3 px-5 py-2 rounded-xl z-1 medium:h-30 medium:w-60 hover:outline-white duration-100">
+                        <img src="./assets/img/wws-logo.png" alt="Discord Logo" class="w-15">
+                        <span class="text-center text-black font-medium text-lg medium:text-xl">Acessar nossa Loja</span>
+                    </a>
+                </div>
             </div>
         </main>
 
@@ -103,29 +110,37 @@
         </a>
     </section>
 
-    <section class="bg-green-800     flex flex-col items-center bg-gradient-to-t from-green-950">
-        <span class="text-2xl w-[70%] text-white font-medium text-center mb-10 mt-3 ">Nos siga nas nossas demais redes sociais:</span>
-
-        <div class="mb-10 w-full flex justify-center gap-6 text-white text-lg">
-            <a href="https://www.youtube.com/@walterwhitemods" class="text-center hover:scale-110 duration-200 ease-in">
-                <img src="./assets/img/youtube-logo.svg" alt="Logo do YouTube" class="mb-2 h-15 mx-auto ">
-                <span>YouTube</span>
-            </a>
-
-            <a href="https://www.instagram.com/walterwhitestore/" class="text-center hover:scale-110 duration-200 ease-in">
-                <img src="./assets/img/instagram-logo.svg" alt="Logo do Instagram" class="mb-2 h-15 mx-auto">
-                <span>Instagram</span>
-            </a>
-
-            <a href="https://www.tiktok.com/@walterwhitemods" class="text-center hover:scale-110 duration-200 ease-in">
-                <img src="./assets/img/tiktok-logo.svg" alt="Logo do TikTok" class="mb-2 h-15 mx-auto">
-                <span>TikTok</span>
-            </a>
+    <footer class="bg-[#2B2B2B] text-white p-2 pr-4 pl-4 flex flex-col items-center">
+        <div class="flex mb-6">
+                    <!-- Sobre Nós -->
+        <div class="w-[60%] medium:w-[75%] medium:pr-10">
+            <h3 class=" font-bold mb-6 text-lg"> Sobre nós</h3>
+            <p class="md:text-lg md:pr-4">WWS, fundada em 2023 por @WalterWhiteOFC, é uma base estratégica para jogadores de FPS focada em evolução e aprimoramento de skills.</p>
         </div>
-    </section>
 
-    <footer class="bg-green-800 text-white font-thin pr-10 flex justify-end">
-        <span>@2025 worldwinnersbr</span>
+        <!-- Redes Sociais -->
+         <div class="w-[40%] ml-3 medium:w-[25%]">
+            <h3 class=" font-bold mb-7 text-lg">Redes Sociais</h3>
+            <div class="medium:flex medium:gap-5">
+                <a class="flex gap-2 mb-3" href="">
+                    <img src="./assets/img/instagram_logo.svg" class="w-7 h-7" alt="Logo do Instagram">
+                    <span class="font-semibold">Instagram</span>
+                </a>
+    
+                <a class="flex gap-2 mb-3" href="">
+                    <img src="./assets/img/youtube_logo.svg" class="w-7 h-7" alt="Logo do Youtube">
+                    <span class="font-semibold">YouTube</span>
+                </a>
+                
+                <a class="flex gap-2 mb-3" href="">
+                    <img src="./assets/img/tiktok_logo.svg" class="w-7 h-7" alt="Logo do TikTok">
+                    <span class="font-semibold">TikTok</span>
+                </a> 
+            </div>
+         </div>
+        </div>
+
+        <span class="font-thin text-sm mb-2">© WorldWinnersBR® 2023-2025 - Be a winner</span>
     </footer>
 </body>
 </html>
